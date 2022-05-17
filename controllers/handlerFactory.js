@@ -1,8 +1,4 @@
-function catchAsync(fn) {
-    return function (req, res, next) {
-        fn(req, res, next).catch((err) => next(err));
-    };
-}
+const catchAsync = require('../utils/catchAsync');
 
 exports.createOne = (Model) =>
     catchAsync(async (req, res, next) => {
