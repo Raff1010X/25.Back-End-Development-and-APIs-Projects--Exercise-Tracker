@@ -1,0 +1,24 @@
+{
+	"name": "fcc-exercise-tracker",
+	"version": "0.1.0",
+	"description": "A REST API project, part of Free Code Camp's curriculum",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js",
+		"start:dev": "NODE_ENV=development nodemon index.js"
+	},
+	"dependencies": {
+		"cors": "^2.8.5",
+		"dotenv": "^8.2.0",
+		"express": "^4.18.1",
+		"mongoose": "^6.3.3"
+	},
+	"repository": {
+		"url": "https://github.com/Raff1010X/exercise--tracker--project.git"
+	},
+	"license": "MIT",
+	"keywords": [
+		"node",
+		"express"
+	]
+}
